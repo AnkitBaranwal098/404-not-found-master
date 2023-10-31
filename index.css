@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Space Mono', monospace; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Space Mono', monospace;
+    padding: 24px;
+}
+header{
+    margin-bottom: 100px;
+}
+h2{
+    color: #333333;
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+}
+img{
+    max-width: 100%;
+}
+
+section h1{
+    color: #333333;
+    width: 350px;
+    height: 142px;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -1.68px;
+}
+
+section p{
+    width: 328px;
+    height: 81px;
+    font-size: 16px;
+    color: #4f4f4f;
+    margin-top: 30px;
+   
+}
+button{
+    margin-top: 24px;
+    border: none;
+    padding: 16px 32px;
+    background-color:  #333;
+    color: #ffffff;
+    font-family: Space Mono;
+    cursor: pointer;
+}
+
+footer p{
+    font-size: 14px;
+    color: #BDBDBD;
+    font-weight: 500;
+    opacity: 0.75;
+    text-align: center;
+    margin-top: 48px;
+}
+
+span{
+    text-decoration-line: underline;
+}
+
+@media ( min-width:768px){
+
+    body{
+        max-width: 1200px;
+        margin: auto;
+    }
+    section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 45px;
+        align-items: center;
+    }
+    section h1{
+        width: 586px;
+        font-size: 64px;
+        margin-bottom: 64px;
+    }
+    section p{
+        width: 400px;
+        font-size: 24px;
+        margin-bottom: 48px;
+    }
+
+    button{
+        font-size: 18px;
+    }
+
+}
